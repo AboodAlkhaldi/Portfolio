@@ -13,6 +13,7 @@
 <meta property="og:image" content="https://aboodalkhaldi.me/og.png">  1200x675, under 300 KB, PNG or JPEG
 -->
 <title>Abood Alkhaldi</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&display=swap">
@@ -163,7 +164,7 @@
   .project {
     position: relative;
     display: grid;
-    grid-template-columns: 176px minmax(0, 1fr);
+    grid-template-columns: 240px minmax(0, 1fr);
     gap: var(--s3);
     padding: var(--s3);
     margin-inline: calc(var(--s3) * -1);
@@ -174,9 +175,9 @@
   @media (hover: hover) { .projects:hover .project:not(:hover) .shot { opacity: 0.45; } }
 
   .shot {
-    width: 176px;
+    width: 240px;
     max-width: 100%;
-    aspect-ratio: 16 / 10;
+    aspect-ratio: 2 / 1;
     border-radius: 6px;
     overflow: hidden;
     border: 1px solid var(--line);
@@ -335,7 +336,7 @@
 
         <article class="project">
           <div class="shot">
-            <img src="images/fonolog.png" alt="Fonolog app home screen on a phone, with the tagline Daha Akıllı Öğren. Daha İyi Oku." width="1375" height="655" loading="lazy">
+            <img src="images/fonolog.webp" alt="Fonolog app home screen on a phone, with the tagline Daha Akıllı Öğren. Daha İyi Oku." width="960" height="465" loading="lazy">
           </div>
           <div>
             <h3><a href="https://play.google.com/store/apps/details?id=com.alisaglam.fonolog" target="_blank" rel="noopener">Fonolog<span class="arrow" aria-hidden="true">↗</span></a></h3>
@@ -351,25 +352,8 @@
         </article>
 
         <article class="project">
-          <!-- PLACEHOLDER IMAGE: replace the svg with <img src="norm.webp" alt="NORM showreel"> -->
-          <div class="shot" aria-hidden="true">
-            <svg viewBox="0 0 176 110" preserveAspectRatio="xMidYMid slice">
-              <rect class="f1" width="176" height="110"/>
-              <rect class="f2" x="12" y="12" width="152" height="68" rx="3"/>
-              <path class="f3" d="M82 33 L99 46 L82 59 Z"/>
-              <rect class="f2b" x="12" y="90" width="12" height="10" rx="1"/>
-              <rect class="f2b" x="26" y="90" width="12" height="10" rx="1"/>
-              <rect class="f2b" x="40" y="90" width="12" height="10" rx="1"/>
-              <rect class="f2b" x="54" y="90" width="12" height="10" rx="1"/>
-              <rect class="f2b" x="68" y="90" width="12" height="10" rx="1"/>
-              <rect class="f2b" x="82" y="90" width="12" height="10" rx="1"/>
-              <rect class="f2b" x="96" y="90" width="12" height="10" rx="1"/>
-              <rect class="f2b" x="110" y="90" width="12" height="10" rx="1"/>
-              <rect class="f2b" x="124" y="90" width="12" height="10" rx="1"/>
-              <rect class="f2b" x="138" y="90" width="12" height="10" rx="1"/>
-              <rect class="f2b" x="152" y="90" width="12" height="10" rx="1"/>
-              <rect class="f3" x="69" y="86" width="2" height="18" rx="1"/>
-            </svg>
+          <div class="shot">
+            <img src="images/norm.webp" alt="NORM wordmark on black, with the line The Norm of cinematic creation" width="960" height="504" loading="lazy">
           </div>
           <div>
             <h3><a href="https://norm-mu.vercel.app/" target="_blank" rel="noopener">NORM<span class="arrow" aria-hidden="true">↗</span></a></h3>
